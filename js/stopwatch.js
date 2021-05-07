@@ -42,7 +42,7 @@ function csCount() {
         csStr = '0'+String(csVal);
     } else if (csVal < 100) {
         csStr = String(csVal);
-    } else { // 100센티초마다 초 카운트 실행
+    } else {
         csVal = 0;
         csStr = '00';
         secCount();
