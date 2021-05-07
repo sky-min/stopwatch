@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Stopwatch</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+  </head>
+  <body>
+    <form>
+      <fieldset class='align-center'> <legend>Stopwatch</legend>
+      <table>
+        <thead>
+          <tr>
+            <th>min</th>
+            <th>sec</th>
+            <th>cs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan='3'>
+              <span>00</span>&ensp;:&ensp;
+              <span>00</span>&ensp;.&ensp;
+              <span>00</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <input id='startBtn' type='button' value='시작'/>
+      <div id='btnBox'>
+        <input id='stopBtn' type='button' value='중지'/>
+        <input id='resetBtn' type='button' value='초기화'/>
+      </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
