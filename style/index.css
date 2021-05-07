@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body{
+  font:Notosans;
+}
+
 .align-center {
     position: absolute;
     left: 50%;
