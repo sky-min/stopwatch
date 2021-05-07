@@ -71,9 +71,7 @@ function Reset() {
     stopBtn.value = '중지';
     btnBox.style.display = 'none';
     startBtn.style.display = 'block';
-    // 카운트 함수 일시중지
     clearInterval(count);
-    // 변수 초기화
     minVal = 0; secVal = 0; csVal = 0;
     min.innerHTML = '00';
     sec.innerHTML = '00';
