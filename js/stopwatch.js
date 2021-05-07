@@ -13,7 +13,7 @@ function minCount() {
     minVal++;
     if (minVal < 10) {
         minStr = '0'+String(minVal);
-    } else if (minVal < 1000) {
+    } else if (minVal < 100) {
         minStr = String(minVal);
     } else { 
         minVal = 0;
