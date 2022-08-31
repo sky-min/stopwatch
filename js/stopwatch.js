@@ -1,13 +1,13 @@
-var min = document.getElementsByTagName('span')[0];
-var sec = document.getElementsByTagName('span')[1];
-var cs = document.getElementsByTagName('span')[2];
-var btnBox = document.getElementById('btnBox');
+const min = document.getElementsByTagName('span')[0];
+const sec = document.getElementsByTagName('span')[1];
+const cs = document.getElementsByTagName('span')[2];
+const btnBox = document.getElementById('btnBox');
 
-var startBtn = document.getElementById('startBtn');
-var stopBtn = document.getElementById('stopBtn');
-var resetBtn = document.getElementById('resetBtn');
+const startBtn = document.getElementById('startBtn');
+const stopBtn = document.getElementById('stopBtn');
+const resetBtn = document.getElementById('resetBtn');
 
-var minVal = 0; secVal = 0; csVal = 0;
+let minVal = secVal = csVal = 0;
 
 function minCount() {
     minVal++;
